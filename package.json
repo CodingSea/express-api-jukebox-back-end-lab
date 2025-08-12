@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "node": "^22.18.0"
+  },
+  "name": "express-api-jukebox-back-end-lab",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingSea/express-api-jukebox-back-end-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodingSea/express-api-jukebox-back-end-lab/issues"
+  },
+  "homepage": "https://github.com/CodingSea/express-api-jukebox-back-end-lab#readme",
+  "description": ""
+}
