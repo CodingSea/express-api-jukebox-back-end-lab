@@ -4,9 +4,9 @@ const trackController = require("../controllers/Track");
 
 router.post("/new", trackController.createTrack);
 
-router.post("/", trackController.indexTrack);
+router.get("/", trackController.indexTrack);
 
-router.post("/:id", trackController.showTrack);
+router.get("/:id", trackController.showTrack);
 
 router.put("/:id", trackController.updateTrack);
 
