@@ -15,6 +15,10 @@ mongoose.connection.on("connected", () =>
 })
 
 
+const trackRoutes = require("./routes/trackRoutes");
+app.use("/tracks", trackRoutes);
+
+
 app.listen(process.env.PORT, () =>
 {
     console.log("Listening to Port");
