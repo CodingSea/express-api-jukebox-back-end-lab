@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const trackController = require("../controllers/Track");
 
-router.post("/new", trackController.createTrack);
+router.post("/", trackController.createTrack);
 
 router.get("/", trackController.indexTrack);
 
