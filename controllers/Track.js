@@ -4,7 +4,8 @@ async function createTrack(req, res)
 {
     try
     {
-
+        const track = await Track.create(req.body);
+        res.status(201).json(track);
     }
     catch(error)
     {
